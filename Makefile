@@ -1,4 +1,4 @@
-obj-m := dslist.o 
+obj-m := list.o dslist.o 
 
 KERNEL_DIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
